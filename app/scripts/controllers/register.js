@@ -2,18 +2,16 @@
 
 /**
  * @ngdoc function
- * @name eventifyApp.controller:MainCtrl
+ * @name eventifyApp.controller:RegisterCtrl
  * @description
- * # MainCtrl
+ * # RegisterCtrl
  * Controller of the eventifyApp
  */
 angular.module('eventifyApp')
-  .controller('MainCtrl', function ($scope, Session) {
+  .controller('RegisterCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    $scope.user = "John Doe";
-    $scope.currentUser = Session.currentUser;
   });
